@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<web-app>
+    <servlet>
+        <servlet-name>lagou</servlet-name>
+        <servlet-class>server.LagouServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>demo1Servlet</servlet-name>
+        <servlet-class>server.Demo1Servlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>demo2Servlet</servlet-name>
+        <servlet-class>server.Demo2Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>lagou</servlet-name>
+        <url-pattern>/lagou</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>demo1Servlet</servlet-name>
+        <url-pattern>/demo1/servlet1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>demo2Servlet</servlet-name>
+        <url-pattern>/demo2/servlet2</url-pattern>
+    </servlet-mapping>
+</web-app>

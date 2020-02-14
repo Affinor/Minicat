@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<server>
+    <service>
+        <connector port="8080"/>
+        <engine>
+            <host name="localhost" appBase="/user/jin/webapps/demo1">
+            </host>
+            <host name="localhost" appBase="/user/jin/webapps/demo2">
+            </host>
+        </engine>
+    </service>
+</server>
